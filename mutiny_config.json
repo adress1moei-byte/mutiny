@@ -1,0 +1,42 @@
+{
+    "project": "MUTINY.PW",
+    "version": "1.0",
+    "description": "Universal client modification for Tanki Online",
+    "features": {
+        "flight": {
+            "enabled": true,
+            "keybind": "R_SHIFT",
+            "speed_range": [100, 1000]
+        },
+        "vision": {
+            "enabled": true,
+            "colors": {
+                "enemy": "#FF3366",
+                "friend": "#3399FF",
+                "target": "#33FF99"
+            }
+        },
+        "weapon_mod": {
+            "enabled": true,
+            "max_angle": 99999,
+            "shell_speed": 35000
+        },
+        "auto_actions": {
+            "mining": false,
+            "repair": true,
+            "keybind": "5"
+        }
+    },
+    "compatibility": {
+        "servers": ["official", "test", "all"],
+        "min_game_version": "2024.1"
+    },
+    "security": {
+        "obfuscation": "high",
+        "auto_update": true,
+        "fallback_urls": [
+            "https://mirror1.mutiny.pw/module.js",
+            "https://mirror2.mutiny.pw/module.js"
+        ]
+    }
+}
