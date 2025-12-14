@@ -524,7 +524,7 @@
             this.menu = document.createElement('div');
             this.menu.id = 'mutiny-menu';
             this.menu.innerHTML = `
-                <div class="mutiny-title">MUTINY.PW v1.2</div>
+                <div class="mutiny-title">MUTINY.PW v1.1</div>
                 
                 <div class="mutiny-item">
                     <span class="mutiny-label">FLIGHT MODE</span>
